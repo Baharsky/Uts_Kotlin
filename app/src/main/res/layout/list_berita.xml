@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textViewWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="oktober"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textViewPenulis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blite"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textViewIsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isi berita"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>
